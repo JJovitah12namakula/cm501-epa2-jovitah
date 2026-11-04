@@ -1,19 +1,15 @@
-# Accessibility Test Protocol — Campus Café (EPA 2)
+ Accessibility Test Protocol — Campus Café (EPA 2)
 
-**Student:** [Enter your name]  
-**Course:** CM-501 Frontend Web Development  
-**Pages:** index.html and contact.html  
-**Target:** WCAG 2.2 Level AA
+Student:Jovitah ronah namakula  
+Course: CM-501 Frontend Web Development  
+Pages: index.html and contact.html  
+Target: WCAG 2.2 Level AA
 
 > Complete the result fields only after performing each test. This is a protocol template, not evidence that tests have passed.
-
-## C1 — Identified issues and repairs
-
-| Starter issue | Repair | Relevant WCAG |
-|---|---|---|
-| Missing document language | Added lang="en" | 3.1.1 Language of Page |
-| No skip navigation | Added skip link to main content | 2.4.1 Bypass Blocks |
-| Generic divs used for page regions | Added header, nav, main and footer landmarks | 1.3.1 Info and Relationships |
+ C1 — Identified issues and repairs
+| Missing document language | Added lang="en"
+ No skip navigation | Added skip link to main content | 2.4.1 Bypass Blocks
+> Generic divs used for page regions Added header, nav, main and footer landmarks | 1.3.1 Info and Relationships |
 | Navigation uses clickable divs | Replaced with keyboard-operable links | 2.1.1 Keyboard |
 | Weak heading hierarchy | Added h1, section h2 and item h3 headings | 1.3.1 Info and Relationships |
 | Menu items lack list semantics | Grouped category items in unordered lists | 1.3.1 Info and Relationships |
